@@ -11,6 +11,7 @@
 
 import sys
 from scipy.constants import convert_temperature
+
 def main(temp_f: float) -> float:
     return convert_temperature(float(temp_f), 'F', 'C')
    # return (float(temp_f) - 32) * (5/9)
